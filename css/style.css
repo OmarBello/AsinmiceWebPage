@@ -1,0 +1,278 @@
+@font-face {
+  font-family: "Futura Md Bt";
+  src: url(/fonts/futura/futura\ medium\ bt.ttf);
+}
+@font-face {
+  font-family: "Futura";
+  src: url(/fonts/futura/futur.ttf);
+}
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /*1 rem = 10px*/
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Futura Md Bt";
+  font-size: 1.6rem;
+  background-color: #FBFCFC;
+}
+
+/** GLOBALS **/
+.container {
+  max-width: 120rem;
+  width: 90%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Futura Md Bt";
+}
+
+h1 {
+  font-size: 4.8rem;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+h3 {
+  font-size: 3.2rem;
+}
+
+h4 {
+  font-size: 2.8rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+/** GLOBALS **/
+.no-margin {
+  margin: 0;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.header {
+  background-image: url(../img/BackgroundHeader.jpg);
+  height: 64rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin: -8px;
+}
+
+.header-text {
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: -37rem;
+  margin-right: 77rem;
+}
+
+.Amazon-Color {
+  color: #F88906;
+}
+
+.text-right-header-Start {
+  margin-right: 10rem;
+}
+
+.text-right-header-Within {
+  margin-right: 31rem;
+}
+
+.text-here {
+  margin-right: 21rem;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.text-right-seller {
+  margin-right: 220px;
+}
+
+.bar {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 30px;
+  margin-top: 20px;
+}
+
+.nav {
+  margin-top: 22px;
+  margin-left: 34px;
+  display: flex;
+  gap: 3rem;
+}
+
+.move-nav-right {
+  margin-right: 140px;
+}
+
+.login-nav {
+  background-color: #D89C00;
+  border-radius: 14px;
+  width: 68px;
+  text-align: center;
+  font-size: 14px;
+  padding-top: 1px;
+}
+
+.amazon-new-expert {
+  display: grid;
+  margin-top: 26px;
+  margin-right: 220px;
+}
+
+.amazon-new-seller,
+.amazon-expert-seller {
+  background-color: #D89C00;
+  border-radius: 10px;
+  width: 71%;
+  padding: 7px;
+  margin-left: 98px;
+}
+
+.amazon-expert-seller {
+  margin-top: 30px;
+}
+
+.laptopheaderimg {
+  width: 64rem;
+  margin-left: 72rem;
+  margin-top: 103px;
+}
+
+/** HOW ITS WORKS **/
+.how-its-works-section {
+  position: relative;
+  margin-top: 8px;
+  margin-left: 260px;
+  width: 69%;
+  height: 41vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.how-its-works-section::before {
+  content: "";
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  border-right: 145px solid transparent;
+  border-left: 145px solid transparent;
+  border-top: 163px solid #FFB800;
+}
+
+.how-its-works {
+  position: relative;
+  z-index: 1;
+  margin: 0 auto;
+  max-width: 900px;
+  text-align: center;
+}
+
+.how-its-works-section .how-its-works h2 {
+  margin: 0;
+  padding: 0;
+  margin: 0;
+  padding: 0;
+  color: #FFFFFF;
+  font-size: 3em;
+  font-family: "Futura Md Bt";
+  margin-bottom: 10rem;
+}
+
+/** HOW ITS WORKS **/
+.icon-main {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 38px;
+}
+
+.img-icon {
+  margin-bottom: -13px;
+}
+
+.title-main {
+  margin-bottom: 0;
+}
+
+.icon {
+  text-align: center;
+  align-items: center;
+}
+.icon img {
+  height: 8rem;
+}
+.icon h3 {
+  font-size: 20px;
+  font-family: "Futura Md Bt";
+  font-weight: bold;
+}
+.icon p {
+  font-family: "Futura Md Bt";
+}
+
+.line-img {
+  margin-top: 9rem;
+}
+
+.div_line_bottom1 {
+  border-bottom: 3px solid #CACFD2;
+  padding-bottom: 20px;
+  margin-bottom: 5rem;
+}
+
+.div_line_bottom2 {
+  border-bottom: 3px solid #CACFD2;
+  padding-bottom: 20px;
+  margin-top: 5rem;
+}
+
+.OurSponsors-img {
+  margin-left: 51rem;
+  margin-top: 4rem;
+  width: 16%;
+}
+
+.ecos-img {
+  display: flex;
+  align-items: center;
+  margin-top: 22px;
+  margin-left: 353px;
+  display: flex;
+  gap: 15rem;
+}
+
+.ecomeffect {
+  width: 22%;
+}
+
+.EcomCEOs {
+  width: 16%;
+}
+
+/*# sourceMappingURL=style.css.map */
