@@ -14,6 +14,7 @@
 $Gold-Color: #D89C00;
 $Orange-Color: #F88906;
 $White-Color: #FFFFFF;
+$Gold: #FFB800;
 //** COLORS **//
 
 html {
@@ -277,14 +278,14 @@ img {
     align-items: center;
     display: flex;
     gap: 2rem;
-    margin-left: 199px;
+    margin-left: 74px;
 }
 .BoxLaptop{
-    width: 21%;
+    width: 25%;
 }
 .mio-laboratorio-text{
     margin-bottom: 25px;
-    font-size: 12px;
+    font-size: 14px;
 }
 .mio-laboratorio-title{
     font-size: 2rem;
@@ -294,6 +295,28 @@ img {
 }
 #tunnel-vision-text{
     margin-left: 36px;
+}
+.Learn-more{
+    background-color: $Gold;
+    padding: 4px;
+    border-radius: 18px;
+    width: 10%;
+    margin-left: 447px;
+    margin-top: -107px;
+}
+.Learn-more-text{
+    padding-left: 22px;
+}
+.Learn-more2{
+    background-color: $Gold;
+    padding: 4px;
+    border-radius: 18px;
+    width: 10%;
+    margin-left: 783px;
+    margin-top: -27px;
+}
+.Learn-more-text2{
+    padding-left: 22px;
 }
 //**meet-our-star-products-**//
 
@@ -328,5 +351,6 @@ img {
     color: #FFFFFF;
     text-align: center;
     padding-top: 39px;
+    margin-top: 162px;
 }
 //**Footer**//
