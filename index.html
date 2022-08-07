@@ -11,22 +11,24 @@
 <body>
     <header class="header">
         <div class="move-nav-right">
-
             <div class="container">
-
-                <div class="bar">
-
-                    <a class="logo" href="index.html">
-                        <img src="img/AsinmiceLogo.png" alt="AsinmiceLogo">
-                    </a>
-        
-                    <nav class="nav">
-                            <a href="index.html" class="home-nav">Home</a>
-                            <a href="downloadextension.html" class="downloadextension-nav">Download Extension</a>
-                            <a href="pricing.html" class="pricing-nav">Pricing</a>
-                            <a href="login.html" class="login-nav">Login</span></a>
-                    </nav>
-                </div>
+                <nav class="navbar">
+                    <!-- LOGO -->
+                    <div class="logo"><img src="/img/AsinmiceLogo.png" alt=""></div>
+                    <!-- NAVIGATION MENU -->
+                    <ul class="nav-links">
+                      <!-- USING CHECKBOX HACK -->
+                      <input type="checkbox" id="checkbox_toggle" />
+                      <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+                      <!-- NAVIGATION MENUS -->
+                      <div class="menu">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/">Download Extension</a></li>
+                        <li><a href="/">Pricing</a></li>
+                        <li><a href="/" class="login-nav"><span>Login</span></a></li>
+                      </div>
+                    </ul>
+                  </nav>
             </div>
         </div>
 
@@ -36,7 +38,7 @@
         </div>
 
         <div class="header-text">
-            <h2 class="no-margin">Launch Your <span class="Amazon-Color">Amazon</span> Business <br> <span class="text-right-header-Start">& Start Selling Like A Pro</span> <br> <span class="text-right-header-Within">Within Hours</span></h2>
+            <h2 class="no-margin launch-text">Launch Your <span class="Amazon-Color">Amazon</span> Business <br> <span class="text-right-header-Start">& Start Selling Like A Pro</span> <br> <span class="text-right-header-Within">Within Hours</span></h2>
             <p class="no-margin text-here">Here to help you scale your business no matter <br>
                 <span class="text-right-seller">your seller level.</span></p>
             
@@ -48,11 +50,11 @@
 
     </header>
 
-    <section class="how-its-works-section">
+    <div class="how-its-works-section">
         <div class="how-its-works">
             <h2>How it Works</h2>
         </div>
-    </section>
+    </div>
 
     <main class="container">
         <div class="icon-main">
