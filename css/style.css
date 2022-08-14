@@ -444,8 +444,8 @@ input[type=checkbox] {
     width: 132%;
   }
   .laptop-image {
-    width: 95%;
-    margin-left: -167px;
+    width: 69%;
+    margin-left: -134px;
   }
   .logoimg {
     margin-left: -35px;
@@ -459,34 +459,43 @@ input[type=checkbox] {
     margin-left: 66rem;
   }
   .header-text {
-    margin-top: -32rem;
+    margin-top: -24rem;
     margin-right: 57rem;
   }
   .how-its-works {
-    padding-top: 100px;
+    padding-top: 81px;
   }
   .amazon-new-expert {
     margin-left: -81px;
   }
   .icon-main {
     margin-top: 76px;
+    margin-right: -8rem;
   }
   .how-its-works-section {
-    margin-left: 152px;
+    margin-left: 168px;
+  }
+  .line-img {
+    width: 108%;
   }
   .OurSponsors-img {
-    margin-left: 34rem;
+    margin-left: 35rem;
     margin-top: 2rem;
   }
   .ecos-img {
-    margin-left: 21rem;
+    margin-left: 23rem;
+    gap: 11rem;
+  }
+  .meet-our-star-products-text {
+    text-align: center;
+    margin-left: 5rem;
   }
   .DOWNLOAD {
-    margin-left: 17rem;
+    margin-left: 21rem;
   }
   .mio-laboratorio {
     width: 83%;
-    margin-left: 87px;
+    margin-left: 111px;
   }
   .mio-laboratorio-text {
     font-size: 9px;
@@ -501,7 +510,7 @@ input[type=checkbox] {
     padding: 0px;
     border-radius: 18px;
     width: 14%;
-    margin-left: 235px;
+    margin-left: 258px;
     margin-top: -24px;
   }
   .Learn-more-text {
@@ -512,20 +521,26 @@ input[type=checkbox] {
     padding: 0px;
     border-radius: 18px;
     width: 14%;
-    margin-left: 471px;
+    margin-left: 495px;
     margin-top: -19px;
   }
   .Learn-more-text2 {
     padding-left: 21px;
     font-size: 14px;
   }
+  .footer {
+    width: 108%;
+  }
 }
 @media (max-width: 632px) {
   .header {
     background-image: url(/img/BACKGROUNDMobil.svg);
   }
+  .move-nav-right {
+    margin-right: -539px;
+  }
   .logo {
-    width: 5%;
+    width: 3%;
     margin-top: -16px;
     margin-left: -28px;
   }
@@ -535,8 +550,8 @@ input[type=checkbox] {
     margin-top: -24px;
   }
   .laptopheaderimg {
-    width: 33%;
-    margin-left: 374px;
+    width: 46%;
+    margin-left: 331px;
     margin-top: 213px;
   }
   .header-text {
@@ -566,13 +581,17 @@ input[type=checkbox] {
     margin-left: 8rem;
   }
   .how-its-works-section {
-    margin-left: 103px;
+    margin-left: 123px;
   }
   .how-its-works {
-    font-size: 33px;
+    font-size: 11px;
   }
   .icon-main {
     display: block;
+    margin-right: -62px;
+  }
+  .DOWNLOAD {
+    margin-left: 8rem;
   }
 }
 
