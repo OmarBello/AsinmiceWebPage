@@ -517,10 +517,10 @@ input[type=checkbox]:checked ~ .menu{
 @media (max-width: 480px){
     .header{
         background-image: url(/img/BACKGROUNDMobil.svg);
-        width: 337%;
+        width: 480%;
     }
     .move-nav-right{
-        margin-right: -539px;
+        margin-right: 51rem;
     }
    .logo{
     width: 3%;
@@ -529,34 +529,35 @@ input[type=checkbox]:checked ~ .menu{
    }
    .hamburger{
     display: block;
-    margin-left: 83rem;
+    margin-left: 121rem;
     margin-top: -24px;
    }
    .laptopheaderimg{
-    width: 27%;
-    margin-left: 592px;
-    margin-top: 194px;
-    margin-bottom: 17rem;
+    width: 22%;
+    margin-left: 580px;
+    margin-top: 157px;
+    margin-bottom: 30rem;
    }
    .header-text{
-    margin-top: -61rem;
-    margin-right: 39rem;
+    margin-top: -75rem;
+    margin-right: 46rem;
    }
    .text-here{
-    margin-right: -41rem;
+    margin-right: 16rem;
     margin-top: 22px;
    }
-   .amazon-new-seller, .amazon-expert-seller {
-    background-color: #D89C00;
-    border-radius: 10px;
-    width: 29%;
-    padding: 7px;
-    margin-left: 432px;
-}
    .launch-text{
     font-size: 29px;
-    margin-right: -45rem;
+    margin-right: 12rem;
    }
+
+.amazon-new-seller, .amazon-expert-seller {
+    background-color: #D89C00;
+    border-radius: 10px;
+    width: 19%;
+    padding: 7px;
+    margin-left: 478px;
+}
    .text-right-seller{
     margin: 0;
    }
